@@ -1,9 +1,9 @@
 public class Sellers {
-    String name;
-    int dateBirth;
-    int numOfDeal;
-    double totalSellTon;
-    boolean seniorSell;
+    private String name;
+    private int dateBirth;
+    private int numOfDeal;
+    private double totalSellTon;
+    private boolean seniorSell;
     String address;
     Sellers(String name, int dateBirth, int numOfDeal, double totalSellTon, boolean seniorSell, String address){
         this.name = name;
@@ -12,5 +12,9 @@ public class Sellers {
         this.totalSellTon = totalSellTon;
         this.seniorSell = seniorSell;
         this.address = address;
+    }
+
+    public String getName() {
+        return name;
     }
 }

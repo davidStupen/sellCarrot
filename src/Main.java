@@ -6,6 +6,6 @@ public class Main {
         displey(seller2);
     }
     static void displey(Sellers seller){
-        System.out.println(seller.name);
+        System.out.println(seller.getName());
     }
 }
